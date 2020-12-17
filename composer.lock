@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ec5fdc421a405fb7b885ff3ed7cc137",
+    "content-hash": "904eae1ad1df8921b7d88e4780e86008",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -119,6 +119,77 @@
                 "source": "https://github.com/filp/whoops/tree/2.9.1"
             },
             "time": "2020-11-01T12:00:00+00:00"
+        },
+        {
+            "name": "getkirby/cms",
+            "version": "3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getkirby/kirby.git",
+                "reference": "0d2751af7cb478df14f30fac47fe9a2cd3b38114"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/0d2751af7cb478df14f30fac47fe9a2cd3b38114",
+                "reference": "0d2751af7cb478df14f30fac47fe9a2cd3b38114",
+                "shasum": ""
+            },
+            "require": {
+                "claviska/simpleimage": "3.5.1",
+                "ext-ctype": "*",
+                "ext-mbstring": "*",
+                "filp/whoops": "2.9.1",
+                "getkirby/composer-installer": "^1.2.0",
+                "laminas/laminas-escaper": "2.7.0",
+                "michelf/php-smartypants": "1.8.1",
+                "mustangostang/spyc": "0.6.3",
+                "php": ">=7.3.0 <8.1.0",
+                "phpmailer/phpmailer": "6.2.0",
+                "true/punycode": "2.1.1"
+            },
+            "type": "kirby-cms",
+            "autoload": {
+                "files": [
+                    "config/setup.php"
+                ],
+                "classmap": [
+                    "dependencies/"
+                ],
+                "psr-4": {
+                    "Kirby\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Kirby Team",
+                    "email": "support@getkirby.com",
+                    "homepage": "https://getkirby.com"
+                }
+            ],
+            "description": "The Kirby 3 core",
+            "homepage": "https://getkirby.com",
+            "keywords": [
+                "cms",
+                "core",
+                "kirby"
+            ],
+            "support": {
+                "email": "support@getkirby.com",
+                "forum": "https://forum.getkirby.com",
+                "issues": "https://github.com/getkirby/kirby/issues",
+                "source": "https://github.com/getkirby/kirby"
+            },
+            "funding": [
+                {
+                    "url": "https://getkirby.com/buy",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-12-15T08:09:43+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -711,9 +782,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.3.0 <8.1.0",
-        "ext-mbstring": "*",
-        "ext-ctype": "*"
+        "php": ">=7.1.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
