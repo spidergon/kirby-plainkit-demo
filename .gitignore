@@ -17,6 +17,9 @@ Icon
 # Core
 # ---------------
 /kirby
+
+# Composer
+# ---------------
 /vendor
 
 # -------------SECURITY-------------
