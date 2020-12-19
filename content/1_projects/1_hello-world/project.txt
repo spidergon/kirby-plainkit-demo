@@ -1,15 +1,29 @@
-title: Hello World
+Title: Hello World
+
 ----
-Intro: This was awesome
+
+Category: Editorial Design
+
 ----
-Text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iure odio numquam tenetur, explicabo, corporis accusamus reprehenderit ipsa quia vitae cupiditate commodi! Perferendis corrupti eveniet reiciendis impedit iure dolorem placeat!
-----
-Year: 2020
-----
-Category: Editorial
-----
+
 Client: Beautybox
+
 ----
+
 Link: https://getkirby.com
+
 ----
-Credits:
+
+Text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iure odio numquam tenetur, explicabo, corporis accusamus reprehenderit ipsa quia vitae cupiditate commodi! Perferendis corrupti eveniet reiciendis impedit iure dolorem placeat!
+
+----
+
+Intro: This was awesome
+
+----
+
+Year: 2020
+
+----
+
+Credits: 
