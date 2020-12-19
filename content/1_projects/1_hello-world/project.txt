@@ -8,6 +8,8 @@ Year: 2020
 ----
 Category: Editorial
 ----
-Client:
+Client: Beautybox
+----
+Link: https://getkirby.com
 ----
 Credits:
