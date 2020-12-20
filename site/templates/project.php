@@ -38,9 +38,15 @@
         <ul>
           <?php foreach($page->images() as $image): ?>
           <li>
-            <a href="<?= $image->url() ?>">
-              <?= $image->resize(1200, 1200) ?>
-            </a>
+            <figure>
+              <a href="<?= $image->url() ?>">
+                <img
+                  src="<?= $image->resize(1200, 1200)->url() ?>"
+                  alt="<?= $image->alt() ?>"
+                >
+              </a>
+              <figcaption><?= $image->caption() ?></figcaption>
+            </figure>
           </li>
           <?php endforeach ?>
         </ul>

@@ -1,7 +1,17 @@
-Alt: This show something
+Alt: Nice image
+
 ----
-Caption:
+
+Caption: Child's hands writing and doing Math
+
 ----
-Photographer:
+
+Photographer: 
+
 ----
-License:
+
+License: 
+
+----
+
+Template: gallery-image
