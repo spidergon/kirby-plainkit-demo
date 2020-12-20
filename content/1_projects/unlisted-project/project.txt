@@ -1,0 +1,13 @@
+title: The Unlisted Project
+----
+Intro: This was awesome
+----
+Text:
+----
+Year: 2020
+----
+Category: Editorial
+----
+Client: Chris
+----
+Credits:
