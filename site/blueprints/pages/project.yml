@@ -6,6 +6,8 @@ columns:
       info:
         type: fields
         fields:
+          seoTitle:
+            type: text
           text:
             label: Project description
             type: textarea
