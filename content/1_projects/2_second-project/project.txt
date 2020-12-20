@@ -1,13 +1,41 @@
-title: Second Project
+Title: Second Project
+
 ----
-Intro: This was awesome
+
+Seotitle: 
+
 ----
-Text:
+
+Text: Something
+
 ----
+
 Year: 2020
+
 ----
-Category: Editorial
+
+Client: 
+
 ----
-Client:
+
+Category: Photography
+
 ----
-Credits:
+
+Link: 
+
+----
+
+Tags: 
+
+----
+
+Location: 
+
+----
+
+Intro: This was awesome
+
+----
+
+Credits: 
