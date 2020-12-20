@@ -13,6 +13,11 @@
         </div>
 
         <dl>
+          <?php if ($page->year()->isNotEmpty()): ?>
+          <dt>Year</dt>
+          <dd><?= $page->year() ?></dd>
+          <?php endif ?>
+
           <?php if ($page->client()->isNotEmpty()): ?>
           <dt>Client</dt>
           <dd><?= $page->client() ?></dd>

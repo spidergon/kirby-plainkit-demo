@@ -2,7 +2,11 @@ Title: Hello World
 
 ----
 
-Category: Editorial Design
+Text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iure odio numquam tenetur, explicabo, corporis accusamus reprehenderit ipsa quia vitae cupiditate commodi! Perferendis corrupti eveniet reiciendis impedit iure dolorem placeat!
+
+----
+
+Year: 2000
 
 ----
 
@@ -10,19 +14,28 @@ Client: Beautybox
 
 ----
 
+Category: 
+
+----
+
 Link: https://getkirby.com
 
 ----
 
-Text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iure odio numquam tenetur, explicabo, corporis accusamus reprehenderit ipsa quia vitae cupiditate commodi! Perferendis corrupti eveniet reiciendis impedit iure dolorem placeat!
+Tags: milk, water, lemons
+
+----
+
+Location:
+
+lat: 48.8566969
+lon: 2.3514616
+city: Paris
+country: France
 
 ----
 
 Intro: This was awesome
-
-----
-
-Year: 2020
 
 ----
 
