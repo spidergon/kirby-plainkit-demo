@@ -15,6 +15,8 @@
 </head>
 <body>
   <header class="header">
-    <a href="<?= $site->url() ?>" class="logo"><?= $site->title() ?></a>
+    <a class="logo" href="<?= $site->url() ?>">
+      <?= asset('assets/icons/logo.svg')->read() ?>
+    </a>
     <?php snippet('menu') ?>
   </header>
