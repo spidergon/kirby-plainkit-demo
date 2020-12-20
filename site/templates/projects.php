@@ -1,12 +1,30 @@
 <?php snippet('header') ?>
 
 <?php
-$projects = $page->children()->listed()->paginate(3);
+$filterBy = get('filter');
+
+$unfiltered = $page->children()->listed();
+
+$projects = $unfiltered
+  ->when($filterBy, function ($filterBy) {
+    return $this->filterBy('category', $filterBy);
+  })
+  ->paginate(3);
+
 $pagination = $projects->pagination();
+
+$filters = $unfiltered->pluck('category', null, true);
 ?>
 
 <main class="main">
   <h1><?= $page->title() ?></h1>
+
+  <nav class="filter">
+    <a href="<?= $page->url() ?>">All</a>
+    <?php foreach ($filters as $filter) : ?>
+      <a href="<?= $page->url() ?>?filter=<?= $filter ?>"><?= $filter ?></a>
+    <?php endforeach ?>
+  </nav>
 
   <ul class="projects">
     <?php foreach ($projects as $project) : ?>
@@ -14,7 +32,10 @@ $pagination = $projects->pagination();
         <a href="<?= $project->url() ?>">
           <figure>
             <?= $project->image()->crop(400, 500) ?>
-            <figcaption><?= $project->title() ?></figcaption>
+            <figcaption>
+              <?= $project->title() ?><br>
+              <small><?= $project->category() ?></small>
+            </figcaption>
           </figure>
         </a>
       </li>
